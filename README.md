@@ -26,15 +26,16 @@ pip install numpy pandas tensorflow tensorflow-addons matplotlib pillow
 
 ## Usage:
 
-## 1. Clone the Repository:
+#### 1. Clone the Repository:
 
 code:
 
 git clone https://github.com/yourusername/Real-Image-to-Monet-using-CycleGAN.git
+
 cd Real-Image-to-Monet-using-CycleGAN
 
-## 2. Prepare the Data
+#### 2. Prepare the Data
 Ensure the dataset is downloaded and placed in the appropriate directory. You can modify the data paths in the notebook as needed.
 
-## 3. Run the Notebook
+#### 3. Run the Notebook
 Open the Jupyter notebook and run the cells sequentially to train the model and generate Monet-style images.
