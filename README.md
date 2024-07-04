@@ -36,21 +36,49 @@ This section is responsible for loading the dataset which includes real photos a
 
 - Writing functions to load and preprocess the images, such as resizing, normalizing, and augmenting them for training.
 
-#### Model Building:
+#### 4. Define the Model Architecture
 
-Define the CycleGAN model architecture.
+The notebook defines the architecture of the Generative Adversarial Network (GAN) used for style transfer. This includes:
 
-#### Training:
+- A Generator model: Converts real photos to Monet-style images.
 
-Train the CycleGAN model with the dataset.
+- A Discriminator model: Evaluates the authenticity of the generated Monet-style images.
 
-#### Evaluation:
+#### 5. Compile and Train the Model
 
-Generate Monet-style images from real photos.
+The training process involves:
 
-## Results:
+- Defining loss functions and optimizers for both the generator and discriminator.
 
-After training the model, you can evaluate its performance by generating Monet-style images from real photos. The generated images can be visualized using matplotlib.
+- Compiling the model and setting up training loops.
+
+- Monitoring the training process using metrics such as loss and accuracy.
+
+#### 6. Save and Load Model Weights
+
+This part involves saving the trained model weights and loading them for inference. It ensures that the model can be reused without retraining.
+
+#### 7. Visualize Monet-esque Photos
+
+In the final section, the notebook demonstrates how to use the trained generator model to convert real photos into Monet-style paintings. This involves:
+
+- Selecting random photos from the dataset.
+
+- Converting these photos using the trained generator.
+
+- Visualizing the original and converted images side by side.
+
+## Summary
+
+It covers:
+
+- Loading and preprocessing the data.
+
+- Defining and training the GAN model.
+
+- Saving the model weights.
+
+- Using the trained model for inference and visualization.
 
 ## Example:
 
