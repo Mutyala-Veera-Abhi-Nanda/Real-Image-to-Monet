@@ -24,13 +24,17 @@ The notebook contains basic initialization steps, These include imports of neces
 
 configurations for the environment.
 
-#### Dataset Configuration:
+#### 2. Libraries and Configurations
 
-Set up dataset paths and parameters.
+The initial cells are importing libraries like TensorFlow, Keras, NumPy, Matplotlib, and others essential for data handling, neural network modeling, and visualization. 
 
-#### Data Preprocessing:
+#### 3. Load and Preprocess the Data
 
-Load and preprocess images for training.
+This section is responsible for loading the dataset which includes real photos and Monet-style paintings. It typically involves:
+
+- Defining the paths to the datasets.
+
+- Writing functions to load and preprocess the images, such as resizing, normalizing, and augmenting them for training.
 
 #### Model Building:
 
